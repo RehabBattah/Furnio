@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniro</title>
+  <link rel="icon" type="image/png" href="/imgs/logo.png" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+    integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"
+    integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+  <!-- NAV  -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white p-3 ">
+    <div class="container ">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2 ms-4 href=" #">
+        <img src="/imgs/logo.png" class="logo-img" alt="">
+        Furniro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- collapse navbar -->
+      <div class="collapse navbar-collapse justify-content-between pe-5 " id="navbarSupportedContent">
+        <ul class=" navbar-nav me-auto  nav-mid justify-content-between mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#shop">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#aboفr">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="nav-icons d-flex navbar-nav  w-25  justify-content-evenly  mb-2 mb-lg-0">
+          <li class="nav-item">
+            <i class="fa-regular fa-user"></i>
+          </li>
+          <li class="nav-item">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </li>
+          <li class="nav-item">
+            <i class="fa-regular fa-heart"></i>
+          </li>
+          <li class="nav-item">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME  -->
+  <section id="home" class="mb-5">
+    <div class="home-new-arrival ">
+      <div class="home-content  ">
+        <span class="pb-5 pb-sm-2">New Arrival</span>
+        <h1>Discover Our New Collection</h1>
+        <p class="pt-2 pb-1 pb-lg-4 pb-md-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+          luctus nec ullamcorper mattis.</p>
+        <button class="buy-btn text-white border-0 ">BUY Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROUDUCTS  -->
+  <section id="products" class="my-5">
+    <h2 class=" text-center">Our Products</h2>
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-12 col-md-6 col-lg-3 mt-lg-0 mb-lg-3 my-3 ">
+          <div class="product-layer position-relative">
+            <div class="product-overlay position-absolute d-flex justify-content-center align-items-center flex-column">
+              <button class="border-0">Add to cart</button>
+              <div class="product-icons text-white  mt-3 w-100">
+                <ul class=" d-flex justify-content-around m-0  p-0  text-white">
+                  <li>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Share
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-code-compare"></i>
+                    Compare
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-heart"></i>
+                    Like
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="padge-offer   position-absolute text-white ">
+              <p class="bg-red1 rounded-circle d-flex  justify-content-center align-items-center">-30%</p>
+            </div>
+            <div class="product-img">
+              <img src="/imgs/image 1.png" alt="Stylish cafe chair">
+            </div>
+            <div class="product-content  p-3">
+              <h3>Syltherine</h3>
+              <p class="pt-2 des">Stylish cafe chair</p>
+              <div class="price d-flex justify-content-between align-items-center">
+                <p class="after">Rp 2.500.000</p>
+                <p class="before">Rp 3.500.000</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6  col-lg-3 mt-lg-0 mb-lg-3 my-3 ">
+          <div class="product-layer position-relative">
+            <div class="product-overlay position-absolute d-flex justify-content-center align-items-center flex-column">
+              <button class="border-0">Add to cart</button>
+              <div class="product-icons text-white  mt-3 w-100">
+                <ul class=" d-flex justify-content-around m-0  p-0  text-white">
+                  <li>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Share
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-code-compare"></i>
+                    Compare
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-heart"></i>
+                    Like
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="product-img">
+              <img src="/imgs/image 2.png" alt="Stylish cafe chair">
+            </div>
+            <div class="product-content  p-3">
+              <h3>Leviosa</h3>
+              <p class="pt-2 des">Stylish cafe chair</p>
+              <div class="price ">
+                <p class="after">Rp 2.500.000</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-6  col-lg-3 mt-lg-0 my-3 ">
+          <div class="product-layer position-relative">
+            <div class="product-overlay position-absolute d-flex justify-content-center align-items-center flex-column">
+              <button class="border-0">Add to cart</button>
+              <div class="product-icons text-white  mt-3 w-100">
+                <ul class=" d-flex justify-content-around m-0  p-0  text-white">
+                  <li>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Share
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-code-compare"></i>
+                    Compare
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-heart"></i>
+                    Like
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="padge-offer   position-absolute text-white ">
+              <p class="bg-red1 rounded-circle d-flex  justify-content-center align-items-center">-50%</p>
+            </div>
+
+            <div class="product-img">
+              <img src="/imgs/image 3.png" alt="Stylish cafe chair">
+            </div>
+            <div class="product-content  p-3">
+              <h3>Lolito</h3>
+              <p class="pt-2 des">Luxury big sofa</p>
+              <div class="price d-flex justify-content-between align-items-center">
+                <p class="after">Rp 7.000.000</p>
+                <p class="before">Rp 14.000.000</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-6  col-lg-3 mt-lg-0 my-3 ">
+          <div class="product-layer position-relative">
+            <div class="product-overlay position-absolute d-flex justify-content-center align-items-center flex-column">
+              <button class="border-0">Add to cart</button>
+              <div class="product-icons text-white  mt-3 w-100">
+                <ul class=" d-flex justify-content-around m-0  p-0  text-white">
+                  <li>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Share
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-code-compare"></i>
+                    Compare
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-heart"></i>
+                    Like
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="padge-offer  position-absolute text-white ">
+              <p class="bg-green1 rounded-circle d-flex  justify-content-center align-items-center">New</p>
+            </div>
+
+            <div class="product-img">
+              <img src="/imgs/image 4.png" alt="Stylish cafe chair">
+            </div>
+            <div class="product-content  p-3">
+              <h3>Respira</h3>
+              <p class="pt-2 des">Outdoor bar table and stool</p>
+              <div class="price ">
+                <p class="after">Rp 500.000</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-6  col-lg-3 mt-lg-0 my-3 ">
+          <div class="product-layer position-relative">
+            <div class="product-overlay position-absolute d-flex justify-content-center align-items-center flex-column">
+              <button class="border-0">Add to cart</button>
+              <div class="product-icons text-white  mt-3 w-100">
+                <ul class=" d-flex justify-content-around m-0  p-0  text-white">
+                  <li>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Share
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-code-compare"></i>
+                    Compare
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-heart"></i>
+                    Like
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="product-img">
+              <img src="/imgs/image 5.png" alt="Stylish cafe chair">
+            </div>
+            <div class="product-content  p-3">
+              <h3>Grifo</h3>
+              <p class="pt-2 des">Night lamp</p>
+              <div class="price ">
+                <p class="after">Rp 1.500.000</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-6  col-lg-3 mt-lg-0 my-3 ">
+          <div class="product-layer position-relative">
+            <div class="product-overlay position-absolute d-flex justify-content-center align-items-center flex-column">
+              <button class="border-0">Add to cart</button>
+              <div class="product-icons text-white  mt-3 w-100">
+                <ul class=" d-flex justify-content-around m-0  p-0  text-white">
+                  <li>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Share
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-code-compare"></i>
+                    Compare
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-heart"></i>
+                    Like
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="padge-offer  position-absolute text-white ">
+              <p class="bg-green1 rounded-circle d-flex  justify-content-center align-items-center">New</p>
+            </div>
+
+            <div class="product-img">
+              <img src="/imgs/image 6 (1).png" alt="Stylish cafe chair">
+            </div>
+            <div class="product-content  p-3">
+              <h3>Muggo</h3>
+              <p class="pt-2 des">Small mug</p>
+              <div class="price ">
+                <p class="after">Rp 150.000</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-6  col-lg-3  mt-lg-0 my-3 ">
+          <div class="product-layer position-relative">
+            <div class="product-overlay position-absolute d-flex justify-content-center align-items-center flex-column">
+              <button class="border-0">Add to cart</button>
+              <div class="product-icons text-white  mt-3 w-100">
+                <ul class=" d-flex justify-content-around m-0  p-0  text-white">
+                  <li>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Share
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-code-compare"></i>
+                    Compare
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-heart"></i>
+                    Like
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="padge-offer   position-absolute text-white ">
+              <p class="bg-red1 rounded-circle d-flex  justify-content-center align-items-center">-50%</p>
+            </div>
+
+            <div class="product-img">
+              <img src="/imgs/image 7 (1).png" alt="Stylish cafe chair">
+            </div>
+            <div class="product-content  p-3">
+              <h3>Pingky</h3>
+              <p class="pt-2 des">Cute bed set</p>
+              <div class="price d-flex justify-content-between align-items-center">
+                <p class="after">Rp 7.000.000</p>
+                <p class="before">Rp 14.000.000</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-6  col-lg-3 mt-lg-0 my-3 ">
+          <div class="product-layer position-relative">
+            <div class="product-overlay position-absolute d-flex justify-content-center align-items-center flex-column">
+              <button class="border-0">Add to cart</button>
+              <div class="product-icons text-white  mt-3 w-100">
+                <ul class=" d-flex justify-content-around m-0  p-0  text-white">
+                  <li>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Share
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-code-compare"></i>
+                    Compare
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-heart"></i>
+                    Like
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="padge-offer  position-absolute text-white ">
+              <p class="bg-green1 rounded-circle d-flex  justify-content-center align-items-center">New</p>
+            </div>
+
+            <div class="product-img">
+              <img src="/imgs/image 8 (1).png" alt="Stylish cafe chair">
+            </div>
+            <div class="product-content  p-3">
+              <h3>Potty</h3>
+              <p class="pt-2 des">Minimalist flower pot</p>
+              <div class="price ">
+                <p class="after">Rp 500.000</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button class="btn-show-more">Show More</button>
+      </div>
+    </div>
+  </section>
+        
+
+  <!-- SLIDER -->
+  <section id="slider" class="my-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6  col-lg-4 mb-lg-0 mb-4 d-flex justify-content-center align-items-center">
+          <div>
+            <h3>50+ Beautiful rooms inspiration</h3>
+            <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+            <button class="btn-slider-explore text-white border-0">Explore More</button>
+          </div>
+        </div>
+
+        <!-- *** -->
+        <div class="col-12 col-md-6  col-lg-8 gap-3 d-flex flex-lg-row flex-column">
+          <div class="col-12 col-md-6  col-lg-6 ">
+            <div class="slider-card  position-relative">
+              <img src="/imgs/slider1.png" class="d-block " alt="...">
+              <div class="carousel-caption position-absolute ">
+                <div class="overlay w-100 h-100  d-flex justify-content-center align-items-center">
+                  <div>
+                    <div class="d-flex justify-content-center align-items-center">
+                      <p >01</p>
+                      <p class="slash mx-2 "> </p>
+                      <p>Bed Room</p>
+                    </div>
+                    <h5>Inner Peace</h5>
+                  </div>
+                </div>
+                <button type="button" data-bs-target="#slideCarousel" data-bs-slide="next" class="arrow-overlay position-absolute border-0 d-flex justify-content-center align-items-center ">
+                  <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6  col-lg-5  ">
+            <div id="slideCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="imgRoom2Con position-relative">
+                    <img src="imgs/slider2.png" class="img-fluid imgRoom2" alt="dining room" />
+                  </div>
+                </div>
+                <div class="carousel-item   position-relative">
+                  <div class="imgRoom2Con">
+                    <img src="imgs/slider3.png" class="img-fluid imgRoom2" alt="special room " />
+                  </div>
+                </div>
+                <div class="carousel-item   position-relative">
+                  <div class="imgRoom2Con">
+                    <img src="imgs/slider1.png" class="img-fluid imgRoom2" alt="bed room" />
+                  </div>
+                </div>
+              </div>
+
+
+              <div type="button" data-bs-target="#slideCarousel" data-bs-slide="next">
+                  <i class="fa-solid fa-chevron-right  next-icon rounded-circle p-3" aria-hidden="true"></i>
+              </div>
+
+              <!-- Indicators -->
+              <div class="carousel-indicators position-static mt-5 mx-1 d-flex justify-content-start  gap-2">
+                <!-- <div class="brdr-indicator"> -->
+                  <button type="button" data-bs-target="#slideCarousel" data-bs-slide-to="0" class="active carousel-bttn"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <!-- </div> -->
+                <button type="button" data-bs-target="#slideCarousel" class="carousel-bttn" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slideCarousel" class="carousel-bttn" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#slideCarousel" class="carousel-bttn" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-6 bg-warning  overflow-hidden">
+            <img src="/imgs/slider1.png" alt="">
+          </div> -->
+          
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER  -->
+  <footer class="pt-5 ">
+    <div class="container footer-up">
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 one">
+          <h4 class=" ">Funiro.</h4>
+          <ul class="px-0 py-4">
+            <li>400 University Drive Suite 200 Coral </li>
+            <li class="py-2">Gables, </li>
+            <li>FL 33134 USA </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2 two">
+          <h4 class=" ">Links</h4>
+          <ul class="px-0 py-4">
+            <li>Home</li>
+            <li>Shop </li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 three">
+          <h4 class=" ">Help</h4>
+          <ul class="px-0 py-4">
+            <li>Payment Options</li>
+            <li>Returns </li>
+            <li>Privacy Policies</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 four">
+          <h4 class=" ">Newsletter</h4>
+          <form class="px-0 py-4">
+            <input type="text" placeholder="Enter Your Email Address">
+            <button class=" btn-subscribe ms-3 bg-transparent">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="container footer-bottom pt-4 pb-2">2023 furino. All rights reverved</p>
+  </footer>
+
+</body>
+
+</html>
