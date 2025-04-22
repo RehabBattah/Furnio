@@ -33,7 +33,7 @@ nav .nav-icons{
 
 /*============ HOME =================== */
 #home{
-    background-image: url(/imgs/home.jpg);
+    background-image: url(./imgs/home.jpg);
     height: 100vh;
     background-position: center center;
     background-size: cover;
